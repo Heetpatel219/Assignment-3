@@ -1,5 +1,5 @@
-const setData = require("../data/setData");
-const themeData = require("../data/themeData");
+const setData = require("../Data/setData");
+const themeData = require("../Data/themeData");
 
 let sets = [];
 
