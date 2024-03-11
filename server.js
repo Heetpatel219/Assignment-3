@@ -1,12 +1,16 @@
-/*********************************************************************************
- * WEB322 – Assignment 02
- * I declare that this assignment is my own work in accordance with Seneca's
- * Academic Integrity Policy:
- * https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
- * Name: Devankit Shukla
- * Student ID: 139395222
- * Date: 20/02/2024
- *********************************************************************************/
+/********************************************************************************
+*  WEB322 – Assignment 03
+* 
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Heet Hiteshbhai Patel Student ID: 144924222 Date: 11-03-2024
+*
+*  Published URL: ___________________________________________________________
+*
+********************************************************************************/
 
 // Import necessary modules
 const express = require("express");
