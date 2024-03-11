@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Enthusiast Hub</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-white text-2xl font-bold">Lego Enthusiast Hub</a>
+            <div class="flex items-center">
+                <a href="about.html" class="text-white mx-4">About</a>
+                <div class="dropdown dropdown-end">
+                    <button class="btn">Theme</button>
+                    <ul class="shadow menu dropdown-content bg-base-100 w-52">
+                        <li><a href="/lego/sets?theme=theme1">Theme 1</a></li>
+                        <li><a href="/lego/sets?theme=theme2">Theme 2</a></li>
+                        <li><a href="/lego/sets?theme=theme3">Theme 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto my-8">
+        <div class="hero p-8 bg-primary text-white">
+            <h1 class="text-4xl font-bold mb-4">Embark on a Journey through the World of Lego Creations</h1>
+            <p class="text-lg mb-4">Discover the magic of building and creativity with our diverse Lego collection. From iconic sets to imaginative creations, explore the endless possibilities that Lego has to offer.</p>
+            <a href="/lego/sets" class="btn">Start Your Lego Adventure</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <div class="card bg-base-100 p-4 rounded-lg shadow-lg">
+                <img src="https://cdn.rebrickable.com/media/thumbs/sets/76414-1/129935.jpg/1000x800p.jpg?1700526582.4562242" alt="Building Set Image" class="rounded-md mb-4" style="width: 50%; height: auto;">
+                <h2 class="text-xl font-bold mb-2">LEGO Harry Potter Hogwarts: Dumbledore’s Office </h2>
+                <p class="text-sm mb-2">Step into the enchanting world of Harry Potter with this intricately detailed Lego set, capturing the essence of Dumbledore's office at Hogwarts.</p>
+                <a href="/lego/sets/set_num" class="btn">View Set</a>
+            </div>
+            <div class="card bg-base-100 p-4 rounded-lg shadow-lg">
+                <img src="https://cdn.rebrickable.com/media/thumbs/sets/76432-1/133007.jpg/1000x800p.jpg?1701440601.34437" alt="Building Set Image" class="rounded-md mb-4" style="width: 50%; height: auto;">
+                <h2 class="text-xl font-bold mb-2">LEGO Star Wars Clone Trooper & Battle Droid Battle Pack Set for Kids</h2>
+                <p class="text-sm mb-2">Immerse yourself in the epic battles of Star Wars with this action-packed Lego set featuring Clone Troopers and Battle Droids.</p>
+                <a href="/lego/sets/set_num_2" class="btn">View Set</a>
+            </div>
+            <div class="card bg-base-100 p-4 rounded-lg shadow-lg">
+                <img src="https://cdn.rebrickable.com/media/thumbs/sets/43180-1/63776.jpg/1000x800p.jpg?1653726401.0250072" alt="Lego Set Image" class="rounded-md mb-4" style="width: 50%; height: auto;">
+                <h2 class="text-xl font-bold mb-2">NINJAGO® City Gardens</h2>
+                <p class="text-sm mb-2">Embark on a ninja adventure with the NINJAGO City Gardens set, featuring intricate details and exciting elements.</p>
+                <a href="/lego/sets/set_num_3" class="btn">View Set</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

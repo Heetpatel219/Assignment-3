@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+
+<!-- Responsive Navbar -->
+<nav class="navbar">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">Lego Collection</a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <a href="/about" class="navbar-item">About</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Theme</a>
+                <div class="navbar-dropdown">
+                    <a href="/lego/sets?theme=someTheme1" class="navbar-item">someTheme1</a>
+                    <a href="/lego/sets?theme=someTheme2" class="navbar-item">someTheme2</a>
+                    <a href="/lego/sets?theme=someTheme3" class="navbar-item">someTheme3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Container for main content -->
+<div class="container mx-auto">
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <p>Oops! Page not found.</p>
+        <!-- You can replace the image URL with your own 404 image -->
+        <img src="/images/404-image.jpg" alt="404 Not Found" class="mt-4">
+        <p class="mt-4">The page you are looking for might be in another LEGO set...</p>
+        <a href="home.html" class="btn mt-4">Go Home</a>
+    </div>
+
+</div>
+
+</body>
+</html>
